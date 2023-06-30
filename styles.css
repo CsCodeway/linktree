@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Poppins&display=swap');
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f7f9fb;
+}
+
+.container {
+  max-width: 30rem;
+  margin: 1.5rem auto;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.container img {
+  height: 10rem;
+  width: 10rem;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 1rem;
+  border-radius: 10rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-family: 'Baloo 2', cursive;
+}
+
+.links-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links-list li {
+  margin-bottom: 1rem;
+}
+
+.links-list a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s ease;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.links-list a:hover {
+  background-color: #f4f4f4;
+}
+
+.links-list img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
+
+.links-list span {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .container{
+    height: 100vh;
+    margin: 0 auto;
+  }
+  .links-list a {
+    padding: 0.7rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .container{
+    height: auto;
+  }
+}
