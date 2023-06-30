@@ -82,6 +82,7 @@ h1 {
   .container{
     height: 100vh;
     margin: 0 auto;
+    overflow: hidden;
   }
   .links-list a {
     padding: 0.7rem;
